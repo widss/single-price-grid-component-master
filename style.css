@@ -1,0 +1,102 @@
+body{
+	/*tag*/
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+	background-color: hsl(204, 43%, 93%);
+	font-family: 'Karla', sans-serif;
+}
+h1{
+	font-size: 1.5rem;
+	color: hsl(179, 62%, 43%);
+	font-weight: 700;
+}
+h2{
+	font-size: 1rem;
+	color: hsl(71, 73%, 54%);
+}
+
+
+/*class*/
+.buton{
+	background-color: hsl(71, 73%, 54%);
+	text-align: center;
+	padding: 5%;
+	border-radius: 5px;
+	font-weight: 700;
+}
+#buton{
+	text-decoration: none;
+	color: white;
+}
+#buton:hover{
+	opacity: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.c-1{
+	padding-left: 0px;
+}
+.c-1 p{
+	margin-bottom: 10%;
+}
+.c-2{	
+	background: hsl(179, 80%, 43%);
+}
+.row{
+	color: white;
+}
+.col-lg-6, .head{
+	padding: 8% 8% 5% 8%;
+}
+
+.row{
+	background-color: hsl(179, 62%, 43%);
+	margin: auto;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.row h2{
+	color: white;
+	font-weight: 600;
+}
+.row #dollar{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.head{
+	background-color: white;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.head p{
+	color: hsl(218, 22%, 67%);
+}
+.head h1{
+	margin-bottom: 5%;
+}
+.head h2{
+	margin-bottom: 2%;
+}
+
+
+#month{
+	opacity: 80%;
+}
+#c-2{
+	width: 87%;
+	opacity: 80%;
+}
+
+@media(max-width: 990px){
+	body{
+		width: 75%;
+	}
+	.c-1{
+		margin-bottom: 10%;
+	}
+	#c-2{
+		width: 75.2%;
+	}
+}
